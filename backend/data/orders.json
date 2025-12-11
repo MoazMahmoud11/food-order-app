@@ -1,0 +1,134 @@
+[
+  {
+    "items": [
+      {
+        "id": "m2",
+        "name": "Margherita Pizza",
+        "price": "12.99",
+        "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+        "image": "images/margherita-pizza.jpg",
+        "quantity": 1
+      },
+      {
+        "id": "m1",
+        "name": "Mac & Cheese",
+        "price": "8.99",
+        "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
+        "image": "images/mac-and-cheese.jpg",
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "name": "مُعاذ بِن مَحْمود",
+      "email": "moaz@gmail.com",
+      "street": "street",
+      "postal-code": "333",
+      "city": "alex"
+    },
+    "id": "535.8714751330942"
+  },
+  {
+    "items": [
+      {
+        "id": "m17",
+        "name": "Mushroom Risotto",
+        "price": "13.99",
+        "description": "Creamy Arborio rice cooked with a medley of wild mushrooms and finished with parmesan.",
+        "image": "https://images.pexels.com/photos/6287526/pexels-photo-6287526.jpeg",
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "name": "skill bridge",
+      "email": "ssss@s",
+      "street": "street",
+      "postal-code": "ss",
+      "city": "cairo"
+    },
+    "id": "653.490012297091"
+  },
+  {
+    "items": [
+      {
+        "id": "m1",
+        "name": "Mac & Cheese",
+        "price": 8.99,
+        "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs.",
+        "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=compress&cs=tinysrgb&w=800",
+        "quantity": 3
+      }
+    ],
+    "customer": {
+      "name": "moaz",
+      "email": "mo@mo",
+      "street": "mm",
+      "postal-code": "mm",
+      "city": "mm"
+    },
+    "id": "829.7129841771955"
+  },
+  {
+    "items": [
+      {
+        "id": "m2",
+        "name": "Margherita Pizza",
+        "price": 12.99,
+        "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+        "image": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "quantity": 1
+      },
+      {
+        "id": "m1",
+        "name": "Mac & Cheese",
+        "price": 8.99,
+        "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs.",
+        "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=compress&cs=tinysrgb&w=800",
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "name": "ss",
+      "email": "ss@s",
+      "street": "jjjj",
+      "postal-code": "jjj",
+      "city": "jj"
+    },
+    "id": "995.5055182695413"
+  },
+  {
+    "items": [
+      {
+        "id": "m3",
+        "name": "Caesar Salad",
+        "price": 7.99,
+        "description": "Romaine lettuce tossed in Caesar dressing, topped with croutons and parmesan shavings.",
+        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "quantity": 2
+      },
+      {
+        "id": "m2",
+        "name": "Margherita Pizza",
+        "price": 12.99,
+        "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+        "image": "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "quantity": 1
+      },
+      {
+        "id": "m1",
+        "name": "Mac & Cheese",
+        "price": 8.99,
+        "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs.",
+        "image": "https://images.pexels.com/photos/13294544/pexels-photo-13294544.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "quantity": 1
+      }
+    ],
+    "customer": {
+      "name": "mo",
+      "email": "mmmm@m",
+      "street": "mm",
+      "postal-code": "mm",
+      "city": "m"
+    },
+    "id": "684.7835211020658"
+  }
+]
