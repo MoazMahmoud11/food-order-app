@@ -12,7 +12,7 @@ export default function OrdersArea() {
     data: loadedMeals,
     isLoading,
     error,
-  } = useHttp('https://6925873e82b59600d7240307.mockapi.io/FoodOrderAPI/meals   ', requestConfig, []); // *New
+  } = useHttp('https://6925873e82b59600d7240307.mockapi.io/FoodOrderAPI/meals', requestConfig, []); // *New
 
 
     if (isLoading){
