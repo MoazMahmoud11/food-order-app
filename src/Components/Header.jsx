@@ -8,10 +8,10 @@ export default function Header() {
     const cartCtx = useContext(CartContext);
     const userProgressCtx = useContext(UserProgressContext);
 
-const totalCartItems = cartCtx.items?.reduce(
-    (totalNumOfItems, item) => totalNumOfItems + (item.quantity || 0),
-    0
-) || 0;
+    const totalCartItems = cartCtx.items?.reduce(
+        (totalNumOfItems, item) => totalNumOfItems + (item.quantity || 0),
+        0
+    ) || 0;
 
 
     function handleShowCart() {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 
 import Cart from "./Components/Cart.jsx";
 const Checkout = React.lazy(() => import('./Components/Checkout.jsx'));
@@ -14,7 +14,9 @@ function App() {
           <Header />
           <OrdersArea />
           <Cart/>
-          <Checkout />
+          <Suspense fallback={<p>Loading...</p>}>
+            <Checkout />
+          </Suspense>
         </UserProgressContextProvider>
       </CartContextProvider>
   )
