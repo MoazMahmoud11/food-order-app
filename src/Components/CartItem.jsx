@@ -1,8 +1,7 @@
+import { memo } from "react";
 import { currencyFormatter } from "../util/formatting";
 
-export default function CartItem({ name, quantity, price, onIncrease, onDecrease}) {
-
-
+function CartItem({ name, quantity, price, onIncrease, onDecrease}) {
 
     return (
         <li className="cart-item">
@@ -16,3 +15,5 @@ export default function CartItem({ name, quantity, price, onIncrease, onDecrease
         </li>
     );
 }
+
+export default memo(CartItem);

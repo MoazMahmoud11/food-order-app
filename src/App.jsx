@@ -3,7 +3,7 @@ import React, { Suspense } from 'react';
 import Cart from "./Components/Cart.jsx";
 const Checkout = React.lazy(() => import('./Components/Checkout.jsx'));
 import Header from "./Components/Header.jsx";
-import OrdersArea from "./Components/OrdersArea.jsx";
+const OrdersArea = React.lazy(() => import('./Components/OrdersArea.jsx'));
 import {CartContextProvider} from "./store/CartContext.jsx";
 import {UserProgressContextProvider} from "./store/UserProgressContext.jsx";
 
@@ -12,9 +12,11 @@ function App() {
       <CartContextProvider >
         <UserProgressContextProvider>
           <Header />
-          <OrdersArea />
+          <Suspense fallback={true}>
+            <OrdersArea />
+          </Suspense>
           <Cart/>
-          <Suspense fallback={<p>Loading...</p>}>
+          <Suspense fallback={true}>
             <Checkout />
           </Suspense>
         </UserProgressContextProvider>
