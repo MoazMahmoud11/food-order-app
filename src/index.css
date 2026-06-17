@@ -41,6 +41,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  #main-header  {
+    padding: 3rem 7%;
+  }
+
   #main-header #title img {
     width: 2.5rem;
     height: 2.5rem;
@@ -115,6 +119,13 @@ h1 {
   padding: 0.5rem 2rem;
   margin: 0;
   border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  #meals {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  
+  }
 }
 
 .meal-item-actions {
