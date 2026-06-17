@@ -44,6 +44,9 @@ body {
   #main-header  {
     padding: 3rem 7%;
   }
+  #main-header #title  {
+    gap: 0.7rem;
+  }
 
   #main-header #title img {
     width: 2.5rem;
@@ -123,7 +126,7 @@ h1 {
 
 @media (max-width: 768px) {
   #meals {
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   
   }
 }
